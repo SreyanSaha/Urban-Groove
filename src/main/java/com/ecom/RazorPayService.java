@@ -8,8 +8,8 @@ import com.razorpay.RazorpayException;
 import com.razorpay.Refund;
 
 public class RazorPayService {
-	final private static String apiKey = "rzp_test_Xq2JJkU6biRFF2"; 
-    final private static String apiSecret = "7fiKLzbTk3dNcbZ0M08i1ltN";
+	final private static String apiKey = "key"; 
+    final private static String apiSecret = "secret-key";
     final public String create_order(double amount) throws Exception {
         RazorpayClient razorpay = new RazorpayClient(apiKey, apiSecret);
         JSONObject orderRequest = new JSONObject();

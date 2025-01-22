@@ -508,7 +508,7 @@ ArrayList<ProductToBuy> products=(ArrayList<ProductToBuy>)request.getSession().g
         <%ClientPersonalDetails details=(ClientPersonalDetails)request.getSession().getAttribute("client_personal_details");%>
         <%if(details!=null){%>
         var options = {
-        		 "key": "rzp_test_Xq2JJkU6biRFF2",
+        		 "key": "apikey",
         		 "amount": <%=(amount+20)*100%>, 
         		 "currency": "INR",
         		 "name": "Urban Groove",
